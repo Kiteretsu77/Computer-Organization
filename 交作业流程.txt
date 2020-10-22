@@ -1,0 +1,13 @@
+Before everthing: Make sure that you open the VPN if you are off campus
+1.In terminal, "cd" to your datalab-handout position
+2.Use command: scp bits.c bwang48@cycle1.csug.rochester.edu:~/bits.c (Upload code first, it's better to upload code into a folder) （In terminal not cycle machine）
+3.Use command:  ssh bwang48@cycle1.csug.rochester.edu  (This is login)
+4.Make sure the bits.c is in a folder. If not, the following command will fail
+5.Use command: /u/cs252/bin/TURN_IN .  (Don't forget the dot at the end)
+6.The screen will require you to input "your partner's netid" That is your NetID not others.
+7.If your code is successfully submitted, you will receive a confirmation email on your official UR email acount. That email will say: 
+LIST OF SUBMITTED FILES:
+.
+./bits.c
+
+END
